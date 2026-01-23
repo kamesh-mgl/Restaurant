@@ -1,0 +1,126 @@
+
+*{
+  margin: 0px;
+  transition: all 0.2s ease-in-out 0s;
+  scroll-behavior: smooth;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ---------------------Navbar------------------------------- */
+
+.navbar{
+
+  height: 50px;
+  background-color: rgb(9, 9, 61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.anchor{
+
+  color: white;
+  text-decoration: none;
+  padding: 7px 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.anchor:hover{
+
+  color: rgb(9, 9, 61);
+  background-color: white;
+  transform: scale(1.05);
+}
+
+/* ------------------Hero------------------------------- */
+
+.container{
+
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  background-image: linear-gradient(10deg,darkblue,pink);
+  color: white
+}
+
+.banner
+{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding: 30px;
+  height: 250px;
+   background-image: linear-gradient(10deg,rgb(23, 23, 24),rgb(51, 51, 192));
+   border-radius: 10px;
+}
+.banner:hover{
+  transform: scale(1.02);
+}
+.banner>h1{
+  margin-top: 10px;
+  font-size: 70px;
+}
+.container span{
+  font-size: 15px;
+}
+#hero-p{
+  margin-top: 30px;
+  text-align: center;
+}
+.container .anchor{
+
+  margin-top: 60px;
+  font-size: 20px;
+  background-color: darkblue;
+}
+.container .anchor:hover{
+  background-color: white;
+}
+
+/* ---------------------------Menu---------------------------- */
+
+.container-menu{
+
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.menu-card{
+
+  height: 270px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.menu-card:hover{
+
+  transform: scale(1.03);
+}
+
+.image{
+
+  height: 150px;
+  width: 300px;
+  overflow: hidden;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+  
+}
+img{
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
+
+}
